@@ -4,7 +4,7 @@
 
 
 """
-cd /Users/4c/Desktop/GHQ/kurzor/LottoPredictor-main
+cd /
 streamlit run app_2.py
 """
 
@@ -735,9 +735,9 @@ if __name__ == "__main__":
 You can now view your Streamlit app in your browser.
 
   Local URL: http://localhost:8501
-  Network URL: http://192.168.1.23:8501
+  Network URL: http://192.x.y.23:8501
 
-Ucitavanje podataka iz /Users/4c/Desktop/GHQ/data/loto7hh_4596_k29.csv...
+Ucitavanje podataka iz /data/loto7hh_4596_k29.csv...
 Ucitano 4596 izvlacenja
 Racunam karakteristike pojedinacnih brojeva...
 Racunam karakteristike kombinacija...
@@ -877,7 +877,7 @@ Device: cpu
   Naive(mean)  | MAE:  3.00
   Poboljsanje Ensemble u odnosu na Naive: 0.98x
 
-NEXT kombinacija: [7, 12, 15, 17, 23, 26, 32]
+NEXT kombinacija: [7, 12, x, y, z, 26, 32]
 """
 
 
@@ -909,7 +909,7 @@ Za NEXT po poziciji nije jedna predikcija sa kraja, nego:
 LSTM i Transformer daju predikciju za sve sekvence iz X_seq,
 uzima se medijana svih LSTM predikcija i medijana svih Transformer predikcija,
 pa je next_ens = (ta medijana_LSTM + ta medijana_TF) / 2.
-Na kraju se ta 7 vrednosti zaokruže i iseku na opseg 1-39 — to je jedna NEXT kombinacija.
+Na kraju se ta 7 vrednosti zaokruže i iseku na opseg 1-39 — to je jedna LOSA NEXT kombinacija.
 
 
 POBOLJSANJE 1: 
