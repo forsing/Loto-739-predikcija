@@ -1,7 +1,7 @@
 Inspiracija/Nadogradnja - Inspiration/Upgrade
 https://github.com/maurocaneva/LottoPredictor
 
-
+streamlit run app_2.py
 
 
 | Paket                       | Verzija |
